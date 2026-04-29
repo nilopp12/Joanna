@@ -1,0 +1,74 @@
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+}
+
+/* TODAS LAS PANTALLAS */
+.pantalla {
+    display: none;
+    height: 100vh;
+    text-align: center;
+    padding: 20px;
+    color: white;
+    background: linear-gradient(to top, #ff9a9e, #fad0c4);
+}
+
+/* PRIMERA VISIBLE */
+.inicio {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background: linear-gradient(to top, #ff758c, #ff7eb3);
+}
+
+button {
+    padding: 12px 20px;
+    border: none;
+    border-radius: 20px;
+    cursor: pointer;
+    margin-top: 10px;
+}
+
+/* CARTA */
+.carta {
+    background: white;
+    color: black;
+    padding: 20px;
+    border-radius: 15px;
+    max-width: 400px;
+    margin: 20px auto;
+}
+
+/* CARRUSEL */
+.carrusel {
+    width: 90%;
+    max-width: 400px;
+    margin: auto;
+}
+
+.slide {
+    display: none;
+}
+
+.slide img {
+    width: 100%;
+    border-radius: 15px;
+}
+
+.texto {
+    background: white;
+    color: black;
+    padding: 10px;
+    border-radius: 10px;
+    margin-top: 5px;
+}
+
+.activo {
+    display: block;
+}
+
+.controles button {
+    background: #333;
+    color: white;
+}
